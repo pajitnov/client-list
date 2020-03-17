@@ -1,0 +1,40 @@
+﻿.pagination-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 0.625rem;
+}
+.pagination-container .pagination-field {
+  padding: 1rem;
+  width: 3.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+.pagination-container .pagination-field.active {
+  border: 0.0625rem solid;
+}
+.pagination-container .pagination-field:hover {
+  border: 0.0625rem solid;
+}
+.pagination-container .pagination-container .btn {
+  border: 1px solid;
+}
+.pagination-container .fa-angle-double-left,
+.pagination-container .fa-angle-left,
+.pagination-container .fa-angle-double-right,
+.pagination-container .fa-angle-right {
+  color: #000000af;
+  padding: 2rem;
+}
+.pagination-container .pagination-opacity-04 {
+  opacity: 0.4;
+}
+.pagination-container .nextPage {
+  cursor: pointer;
+}
+.pagination-container .nextPage:hover i {
+  color: #0077bf;
+}
+.pagination-container i {
+  font-size: 20px;
+}
